@@ -22,6 +22,8 @@ int binary_tree_is_full(const binary_tree_t *tree)
 /**
  * binary_tree_last_left - go to the deepest left node
  * @tree: pointer to a node
+ * 
+ * Return: pointer to the leftest node
  */
 binary_tree_t *binary_tree_last_left(const binary_tree_t *tree)
 {
