@@ -30,7 +30,7 @@ binary_tree_t *binary_tree_last_left(const binary_tree_t *tree)
 
 	if (tree->left == NULL)
 		return ((binary_tree_t *)tree);
-	
+
 	return (binary_tree_last_left(tree->left));
 }
 
@@ -58,7 +58,7 @@ size_t binary_tree_depth(const binary_tree_t *tree)
  * same_depth_leaves - check if all leaves have same depth
  * @tree: tree to check
  * @expected_depth: depth expected
- * 
+ *
  * Return: 1 if same depth otherwise 0
  */
 int same_depth_leaves(const binary_tree_t *tree, size_t expected_depth)
@@ -84,7 +84,7 @@ int same_depth_leaves(const binary_tree_t *tree, size_t expected_depth)
 /**
  * binary_tree_is_perfect - check if its a perfect tree
  * @tree: pointer to the root node
- * 
+ *
  * Return: 1 if perfect otherwise 0
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
